@@ -6,9 +6,9 @@ dictionary.each do |word|
   result[word] = found unless found == 0
 end
 
-  return result
+  return arr
 end
 
 dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
 
-p substrings("Howdy partner, sit down! How's it going?", dictionary)
+substrings("Howdy partner, sit down! How's it going?", dictionary)
